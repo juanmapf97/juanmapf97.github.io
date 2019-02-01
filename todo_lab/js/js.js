@@ -34,7 +34,7 @@ let entry = document.getElementById('newitem');
 
 function addNewElement(e) {
     console.log(e);
-    let list = document.getElementById('todo-list');
+    let list = document.getElementById('unfinished-list');
     if (e.keyCode == 13) {
         list.appendChild(createListElement(e.target.value));
         e.target.value = '';
