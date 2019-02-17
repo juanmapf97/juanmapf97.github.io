@@ -1,6 +1,6 @@
 let jsonData = {};
 
-fetch('juanmapf97.github.io/grammys_lab/data/grammys.json')
+fetch('../data/grammys.json')
     .then(function(response) {
         return response.json();
     })
