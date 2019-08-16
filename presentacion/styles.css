@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    background-color: #b0190e;
+    font-family: 'Inter';
+}
+
+body {
+    background:#b0190e;
+    transition:all 200ms; 
+    will-change: background;
+}
+
+.clear{clear:both;}
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.icon {
+    font-size: 72px !important;
+    color: white;
+    /* height: 84px; */
+    cursor: pointer;
+}
+
+img {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 80px 0;
+    width: 100%;
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    left: 15%;
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.text {
+    margin: auto;
+}
+
+.subtitle {
+    color: white;
+    /* font-size: 48px; */
+    font-size: 3vw;
+}
+
+.image-bg {
+    background: url('assets/london.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nickname {
+    margin-top: -20px;
+    font-family: 'Inter Italic'
+}
+
+.video-content {
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* top: 15%;
+    left: 15%; */
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.title {
+    color: white;
+    font-family: 'Inter Bold';
+    /* font-size: 102px; */
+    font-size: 7vw;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('assets/fonts/Inter-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Inter Italic';
+    src: url('assets/fonts/Inter-Italic.otf');
+}
